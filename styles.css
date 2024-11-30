@@ -1,0 +1,245 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image: url(images/imagepozadina.jpg);
+  background-position: top;
+  background-size: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 70vh;
+  padding-top: 30vh;
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Times New Roman", serif; /* Serif font */
+}
+
+.header h1 {
+  font-size: 32px;
+  color: #ffffff;
+  margin: 0;
+  padding: 5vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns per row */
+  gap: 10px; /* Spacing between circles */
+  width: 90%; /* Take up 90% of the screen width */
+  max-width: 1200px; /* Maximum width to keep layout clean */
+}
+
+.circle-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/imgpat.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#prvikrug {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/img99.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+#cetvrti {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/medo.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#peti {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/glava.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#jedanaest {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/irvas.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#devet {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/pingvin.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#osam {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/kapibara.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#trinaest {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/snesko.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#sesnaest {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/snowfairy.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#osamnaest {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/djumbirko.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#dvadeset {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/baba.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#dvadesetjedan {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/deda.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#dvadesettri {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/vila.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#dvadesetosam {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/plavmeda.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+#dvadesetdevet {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/belmeda.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+#trideset {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/rozmeda.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+#tridesetjedan {
+  width: 100%; /* Full width of the grid cell */
+  aspect-ratio: 1; /* Makes the circle proportional */
+  background-image: url("images/zvezda1.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+
+  height: 50vw;
+}
+
+.hidden-text {
+  position: absolute;
+  visibility: hidden; /* Initially hidden */
+  opacity: 0; /* Invisible at the start */
+  transition: opacity 0.5s ease; /* Smooth fade-in */
+  font-size: 14px;
+  text-align: center;
+}
+
+img {
+  width: 20px;
+}
